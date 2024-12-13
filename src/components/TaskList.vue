@@ -66,7 +66,9 @@
     </form>
 
     <div>
-      <div v-if="filterCompletedTasks.length === 0">No Tasks Available</div>
+      <div v-if="filterCompletedTasks.length === 0" class="mt-3">
+        No Tasks Available
+      </div>
       <div v-else>
         <h3 class="mt-4">Tasks:</h3>
 
